@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>StreamSync</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='icon' type='image/png' href='/images/logo.png'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/lobby.css'>
+</head>
+<body>
+
+        <header id="nav" class="modern-navbar">
+            <div class="nav--list">
+                <a href="index.html">
+                    <h3 id="logo">
+                        <span>StreamSync</span>
+                    </h3>
+                </a>
+            </div>
+            <nav id="nav__links">
+            </nav>
+        </header>
+
+    <main id="room__lobby__container" class="lobby-main">
+        <div class="lobby-illustration">
+            <div class="lobby-welcome-text">
+                <h1>Welcome to <span class="blue-text">StreamSync</span></h1>
+                <p class="lobby-caption">Seamless, secure, and smart video meetings right from your browser.<br>
+                Join or create rooms instantly, chat, share files, transcribe in real-time, and much more.</p>
+            </div>
+        </div>
+        <div id="form__container">
+             <div id="form__container__header">
+                 <p>Create or Join Room</p>
+             </div>
+ 
+ 
+            <form id="lobby__form">
+ 
+                 <div class="form__field__wrapper">
+                     <label>Your Name</label>
+                     <input type="text" name="name" required placeholder="Enter your display name..." />
+                 </div>
+ 
+                 <div class="form__field__wrapper">
+                     <label>Room ID</label>
+                     <input type="text" name="room" placeholder="Enter room id..." />
+                 </div>
+ 
+                 <div class="form__field__wrapper">
+                     <button type="submit">Go to Room 
+                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/></svg>
+                    </button>
+                 </div>
+            </form>
+        </div>
+     </main>
+
+    <!--  -->
+    <footer id="copyright">
+        <p>&copy; <span id="currentYear"></span> LOKESH BETHALA. All Rights Reserved.</p>
+    </footer>
+      
+</body>
+<script type="text/javascript" src="js/lobby.js"></script>
+</html>
